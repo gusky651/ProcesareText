@@ -20,5 +20,9 @@ public class ProcesareText
         String procesare = content.replaceAll("\\p{P}", ""); //eliminare semne de punctuatie
 
         System.out.println(procesare);
+
+        procesare = content.replaceAll("\\s+","");  //eliminare spatii
+
+        System.out.println(procesare);
     }
 }
