@@ -24,5 +24,9 @@ public class ProcesareText
         procesare = content.replaceAll("\\s+","");  //eliminare spatii
 
         System.out.println(procesare);
+
+        procesare = procesare.replaceAll("\\d",""); //eliminare cifre
+
+        System.out.println(procesare);
     }
 }
